@@ -1,3 +1,7 @@
+##This ruby script converts the .html.erb files in /views to .html file in /public which can now be directly opened 
+##-by the browser!
+
+
 require 'erb'
 
 
@@ -13,7 +17,7 @@ end
 
 ## Replace contents from a string
 #  str = "i rode a plane today"
-#  puts str.gsub('rode', 'bought')
+#  puts str.gsub('rode', 'bought')    //gsub() subsitutes the word rode with bought!
 #  => "i bought a plane today"
 
 
